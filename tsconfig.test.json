@@ -1,0 +1,25 @@
+
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "target": "es5",
+    "module": "commonjs",
+    "lib": ["es2015", "es2016", "es2017", "esnext", "dom"],
+    "strict": true,
+    "sourceMap": true,
+    "declaration": false,
+    "strictNullChecks": false,
+    "allowSyntheticDefaultImports": true,
+    "noImplicitAny": false,
+    "resolveJsonModule": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "esModuleInterop": true,
+    "baseUrl": "src",
+    "paths": {
+      "@utils/*": ["utils/*", "common/utils/*"]
+    },
+    "typeRoots": ["node_modules/@types"]
+  },
+  "include": ["src"]
+}
